@@ -1,5 +1,5 @@
 const span = document.getElementById("typedtext");
-const words = ["The ", "Rhy "];
+const words = ["The ", "Rys "];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
