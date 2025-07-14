@@ -6,10 +6,6 @@ body {
     min-height: 100vh;
 }
 
-.logo-container {
-    animation: float 6s ease-in-out infinite;
-}
-
 .social-card {
     transition: all 0.3s ease;
     background: rgba(255, 255, 255, 0.05);
@@ -28,6 +24,15 @@ body {
 
 .youtube-card:hover {
     background: linear-gradient(135deg, rgba(255, 0, 0, 0.2) 0%, rgba(255, 0, 0, 0.4) 100%);
+}
+
+.tiktok-card:hover {
+  background: linear-gradient(135deg, rgba(255, 64, 128, 0.15) 0%, rgba(255, 64, 128, 0.3) 100%);
+}
+
+button:hover {
+  background-color: rgba(200, 200, 200, 0.15); /* abu terang agak transparan */
+  transition: background-color 0.3s ease;
 }
 
 @keyframes float {
