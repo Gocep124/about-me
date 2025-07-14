@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
 }
 
+/* Basic card style */
 .social-card {
   transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.05);
@@ -13,29 +14,36 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.social-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+/* Hover effects per card */
+.spotify-card:hover {
+  background: linear-gradient(135deg, rgba(30, 215, 96, 0.15), rgba(30, 215, 96, 0.3));
 }
 
-/* TikTok hover effect */
+.github-card:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(150, 150, 150, 0.1));
+}
+
+.whatsapp-card:hover {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.15), rgba(16, 185, 129, 0.3));
+}
+
 .tiktok-card:hover {
-  background: linear-gradient(135deg, rgba(255, 64, 128, 0.15) 0%, rgba(255, 64, 128, 0.3) 100%);
+  background: linear-gradient(135deg, rgba(255, 64, 128, 0.15), rgba(255, 64, 128, 0.3));
 }
 
-/* Button hover: abu terang transparan */
-button:hover {
-  background-color: rgba(200, 200, 200, 0.15);
-  transition: background-color 0.3s ease;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+/* Button style */
+button {
+  transition: all 0.3s ease;
 }
 
+/* Optional float animation (if you want to use later) */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
   100% { transform: translateY(0px); }
 }
 
+/* Glow effect for title */
 .glow {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
