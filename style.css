@@ -14,6 +14,32 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Tambah efek zoom pas hover */
+.spotify-card:hover,
+.github-card:hover,
+.whatsapp-card:hover,
+.tiktok-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Tetap kasih warna efek masing-masing */
+.spotify-card:hover {
+  background: linear-gradient(135deg, rgba(30, 215, 96, 0.15), rgba(30, 215, 96, 0.3));
+}
+
+.github-card:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(150, 150, 150, 0.1));
+}
+
+.whatsapp-card:hover {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.15), rgba(16, 185, 129, 0.3));
+}
+
+.tiktok-card:hover {
+  background: linear-gradient(135deg, rgba(255, 64, 128, 0.15), rgba(255, 64, 128, 0.3));
+}
+
 /* Hover effects per card */
 .spotify-card:hover {
   background: linear-gradient(135deg, rgba(30, 215, 96, 0.15), rgba(30, 215, 96, 0.3));
